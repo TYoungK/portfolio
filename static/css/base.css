@@ -1,0 +1,151 @@
+html {
+    scroll-behavior: smooth;
+    display: block;
+}
+
+.sideMenu {
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    width: 256px;
+    height: 100%;
+    background: #fff;
+    z-index: 1501;
+    box-shadow: 0 0 10px -1px #eee;
+    display: flex;
+    align-items: center;
+
+}
+@media only screen and (max-width: 1250px){
+    .sideMenu {
+        margin-left: -256px;
+        -webkit-transition: 1s;
+        -moz-transition: 1s;
+        -o-transition: 1s;
+        transition: 1s;
+    }
+
+}
+
+.menu-open{
+    margin-left: 0px;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+}
+
+.main {
+    max-width: 100%;
+    position: relative;
+    margin: 0 auto;
+    padding-left: 256px;
+}
+@media only screen and (max-width: 1250px){
+    .main {
+        width: 100%;
+        padding-left: 0;
+        -webkit-transition: 1s;
+        -moz-transition: 1s;
+        -o-transition: 1s;
+        transition: 1s;
+        z-index: 1500;
+        }
+
+ }
+
+.contents {
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+
+@media only screen and (min-width: 768px){
+   .contents {
+        width: 80%;
+    }
+}
+
+.menu {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.menu-list a:hover {
+    background: none;
+    font-weight: bold;
+}
+
+.menu-list a.is-active {
+    color: #4a4a4a;
+    background-color: rgba( 255, 255, 255, 0 );
+    font-weight: bold;
+}
+
+.menu-button {
+    width: 60px;
+    height: 50px;
+    display: none;
+    position: fixed;
+    z-index: 99999;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+@media only screen and (max-width: 1250px){
+    .menu-button {
+        display: block;
+    }
+}
+.menu-button .m-button{
+    display: inline-block;
+    background: url('../images/menu-icon.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    transition: all ease 1s;
+}
+
+
+
+#toggleValue{
+    display: none;
+}
+
+#toggleValue:checked ~ * .m-button{
+    transform : rotate(90deg);
+}
+
+.star-color {
+    color: #00d1b2;
+    margin: -2px;
+}
+.image.is-128x128{
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pro-th-1{
+    min-width: 117px;
+}
+.pro-th-3{
+    min-width: 86px;
+}
+.pro-th-4{
+    min-width: 48px;
+}
+
+.is-32x32{
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+}
+
+.profile-pic{
+    height: 128px !important;
+    object-fit: cover;
+}

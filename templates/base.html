@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {% load static %}
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel="stylesheet" href="{%static 'css/base.css' %}">
+    <script src="{% static 'js/base.js' %}"></script>
+    <script src="https://kit.fontawesome.com/836a752a46.js" crossorigin="anonymous"></script>
+    <title>
+        {%block title%}
+        {%endblock%}
+    </title>
+
+</head>
+
+<body>
+<input type="checkbox" id="toggleValue">
+<div class="menu-button" onclick="menuToggle();">
+    <div class="m-button"></div>
+</div>
+<div class="sideMenu has-background-primary">
+    <div class="menu">
+      <ul class="menu-list">
+        <!-- main.html 에서 읽어 옴-->
+      </ul>
+    </div>
+</div>
+<div class="main">
+    <div class="contents">
+        {%block content%}
+
+        {%endblock%}
+    </div>
+    <footer class="footer">
+      <div class="content has-text-centered">
+
+      </div>
+    </footer>
+</div>
+
+</body>
+</html>

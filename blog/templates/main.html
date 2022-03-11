@@ -1,0 +1,347 @@
+{%extends 'base.html'%}
+
+{% block title %}
+포트폴리오
+{% endblock %}
+
+{% block content %}
+{% load static %}
+    <section class="section" id="summary">
+        <h1 class="title mt-5">소개</h1>
+        <h3 class="subtitle">
+            <br>
+            <strong>약간</strong>의 완벽주의를 추구합니다. <del><sub>세상에 완벽이란 건 존재하지 않으니까요.&#128517;</sub></del><br>
+            과제를 해결 해냈을 때의 쾌감, 새로운 것을 알았을 때의 신기함을 즐깁니다.
+            
+        </h3>
+    </section>
+    <section class="section" id="stack">
+        <h1 class="title">기술</h1>
+        <div class="box p-3">
+            <table class="table is-hoverable is-fullwidth">
+                <thead>
+                    <tr>
+                        <th>기술</th>
+                        <th>설명</th>
+                        <th>평가</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>
+                            <img class="is-32x32" src="{% static 'images/java_icon.jpg' %}">
+                            JAVA
+                        </th>
+                        <td> - </td>
+                        <td>
+                            <i class="fas fa-star star-color"></i>
+                            <i class="fas fa-star star-color"></i>
+                            <i class="far fa-star star-color"></i>
+                            <i class="far fa-star star-color"></i>
+                            <i class="far fa-star star-color"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <img class="is-32x32" src="{% static 'images/js_icon.png' %}">
+                            Javascript
+                        </th>
+                        <td> - </td>
+                        <td>
+                            <i class="fas fa-star star-color"></i>
+                            <i class="fas fa-star star-color"></i>
+                            <i class="far fa-star star-color"></i>
+                            <i class="far fa-star star-color"></i>
+                            <i class="far fa-star star-color"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <img class="is-32x32" src="{% static 'images/python_icon.png' %}">
+                            Python
+                        </th>
+                        <td> - </td>
+                        <td>
+                            <i class="fas fa-star star-color"></i>
+                            <i class="fas fa-star star-color"></i>
+                            <i class="far fa-star star-color"></i>
+                            <i class="far fa-star star-color"></i>
+                            <i class="far fa-star star-color"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <img class="is-32x32" src="{% static 'images/django_icon.png' %}">
+                            Django
+                        </th>
+                        <td> - </td>
+                        <td>
+                            <i class="fas fa-star star-color"></i>
+                            <i class="fas fa-star star-color"></i>
+                            <i class="far fa-star star-color"></i>
+                            <i class="far fa-star star-color"></i>
+                            <i class="far fa-star star-color"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <img class="is-32x32" src="{% static 'images/jsp_icon.png' %}">
+                            JSP
+                        </th>
+                        <td> - </td>
+                        <td>
+                            <i class="fas fa-star star-color"></i>
+                            <i class="fas fa-star star-color"></i>
+                            <i class="far fa-star star-color"></i>
+                            <i class="far fa-star star-color"></i>
+                            <i class="far fa-star star-color"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <img class="is-32x32" src="{% static 'images/springboot_icon.png' %}">
+                            Spring Boot
+                        </th>
+                        <td> - </td>
+                        <td>
+                            <i class="fas fa-star star-color"></i>
+                            <i class="fas fa-star star-color"></i>
+                            <i class="far fa-star star-color"></i>
+                            <i class="far fa-star star-color"></i>
+                            <i class="far fa-star star-color"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <img class="is-32x32" src="{% static 'images/c#_icon.png' %}">
+                            C#
+                        </th>
+                        <td> - </td>
+                        <td>
+                            <i class="fas fa-star star-color"></i>
+                            <i class="fas fa-star star-color"></i>
+                            <i class="far fa-star star-color"></i>
+                            <i class="far fa-star star-color"></i>
+                            <i class="far fa-star star-color"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <img class="is-32x32" src="{% static 'images/.netcore_icon.png' %}">
+                            ASP.NET core
+                        </th>
+                        <td> - </td>
+                        <td>
+                            <i class="fas fa-star star-color"></i>
+                            <i class="fas fa-star star-color"></i>
+                            <i class="far fa-star star-color"></i>
+                            <i class="far fa-star star-color"></i>
+                            <i class="far fa-star star-color"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <img class="is-32x32" src="{% static 'images/php_icon.png' %}">
+                            PHP
+                        </th>
+                        <td> - </td>
+                        <td>
+                            <i class="fas fa-star star-color"></i>
+                            <i class="fas fa-star star-color"></i>
+                            <i class="far fa-star star-color"></i>
+                            <i class="far fa-star star-color"></i>
+                            <i class="far fa-star star-color"></i>
+                        </td>
+                    </tr>
+                </tbody>
+              </table>
+        </div>
+    </section>
+    <section class="section" id="career">
+        <h1 class="title">경력</h1>
+        <div class="box p-3">
+            <table class="table is-hoverable is-fullwidth">
+                <thead>
+                    <tr>
+                        <th>회사명</th>
+                        <th>담당업무</th>
+                        <th>재직기간</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>바인시스템즈</th>
+                        <td>
+                            .net 데스크탑 소프트웨어 개발과 간단한 회사 페이지 개발
+                        </td>
+                        <td>2018.11~2020.11</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section class="section" id="project">
+        <h1 class="title">프로젝트</h1>
+        <div class="box p-3">
+            <table class="table is-hoverable is-fullwidth is-narrow">
+                <thead>
+                    <tr>
+                        <th class="pro-th-1">프로젝트명</th>
+                        <th class="pro-th-2">설명</th>
+                        <th class="pro-th-3">개발기간</th>
+                        <th class="pro-th-4">코드</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th class="is-vcentered">여행플래너</th>
+                        <td>여행 계획을 구글 지도를 이용해 동선을 짜는것부터 건의 사항에 관련된 게시판,
+                            그리고 함께 여행하는 사람들과 같이 의논해서 계획할 수 있고 접속해 있다면
+                            실시간으로 채팅으로 대화를 나눌 수도 있는 그룹웨어 기능이 있습니다.
+                            여기서 제가 맡은 부분은 계정 관련된 전반적인 부분과 그룹웨어 기능입니다.
+                            <br>
+                            <span class="tag is-danger">java</span>
+                            <span class="tag is-warning">js</span>
+                            <span class="tag is-success">jsp</span>
+                            <span class="tag is-link">MySQL</span>
+                            <span class="tag is-white">EC2</span>
+                        </td>
+                        <td>약 3개월</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th class="is-vcentered">스마트 팩토리</th>
+                        <td>
+                            울산 LG하우시스 스마트 팩토리 인프라 구축 사업에 참여하였으며
+                            POP에서 받아온 데이터를 기반으로 생산 실적의 전반적인 관리, 모니터링, 
+                            LOT 추적 및 관리 등을 담당하는 SPC 개발을 맡았습니다.
+                            기존의 시스템에서 없었던 LOT추적 및 관리, 액체형 원재료 투입 관리 등의 기능을 
+                            추가하여 처음부터 새로 개발하였으며 자재 재고 파악과 출처 추적 면에서 좋은 개선이 있었습니다.
+                            <br>
+                            <span class="tag is-black">c#</span>
+                            <span class="tag is-dark">.net</span>
+                            <span class="tag is-light">oracle</span>
+                        </td>
+                        <td>약 1년</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th class="is-vcentered">Dstagram</th>
+                        <td>
+                            인스타그램 클론 프로젝트로 장고를 공부하려고 산 책의 카피 코딩 프로젝트로 헤로쿠에 배포하여 마무리 후 
+                            개인적으로 계정 검색, 좋아요, 팔로잉 등의 기능을 추가 했으며 계속 완성도를 높혀 갈 계획입니다.
+                            <br>
+                            <span class="tag is-primary">django</span>
+                            <span class="tag is-info">python</span>
+                            <span class="tag is-warning">js</span>
+                            <span class="tag is-white">S3</span>
+                        </td>
+                        <td>약 1개월</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th class="is-vcentered">onlineshop</th>
+                        <td>
+                            장고를 공부하려고 산 책의 카피 코딩 프로젝트입니다.
+                            주요 기능은 컨텍스트 프로세스를 이용한 장바구니, 
+                            iamport 결제 api를 이용한 결제 시스템과 weasyprint를 이용한 주문 내역 pdf 출력입니다.
+                            <br>
+                            <span class="tag is-primary">django</span>
+                            <span class="tag is-info">python</span>
+                            <span class="tag is-warning">js</span>
+                            <span class="tag is-link">MySQL</span>
+                            <span class="tag is-white">AWS</span>
+                        </td>
+                        <td>약 2주</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th class="is-vcentered">포트폴리오</th>
+                        <td>
+                            <span class="tag is-primary">django</span>
+                            <span class="tag is-info">python</span>
+                            <span class="tag is-warning">js</span>
+                            <span class="tag is-white">bulma</span>
+                        </td>
+                        <td>약 1개월</td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <!--     
+    <section class="section" id="introduce">
+        <h1 class="title">자기소개</h1>
+    </section> 
+    -->
+    <section class="section" id="education">
+        <h1 class="title">학력</h1>
+        <div class="box p-3">
+            <table class="table is-hoverable is-fullwidth">
+                <thead>
+                    <tr>
+                        <th>학교명</th>
+                        <th>전공</th>
+                        <th>상태</th>
+                        <th>재학 기간</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>서명초등학교</th>
+                        <td>  </td>
+                        <td>졸업</td>
+                        <td>2001~2006</td>
+                    </tr>
+                    <tr>
+                        <th>동현중학교</th>
+                        <td>  </td>
+                        <td>졸업</td>
+                        <td>2007~2009</td>
+                    </tr>
+                    <tr>
+                        <th>동래고등학교</th>
+                        <td>이과</td>
+                        <td>졸업</td>
+                        <td>2010~2012</td>
+                    </tr>
+                    <tr>
+                        <th>동의과학대</th>
+                        <td>컴퓨터정보과</td>
+                        <td>졸업</td>
+                        <td>2013~2017</td>
+                    </tr>
+                </tbody>
+              </table>
+        </div>
+
+    </section>
+
+    <section class="section" id="contact">
+        <h1 class="title">Contact</h1>
+        <div class="tile is-ancestor">
+            <div class="tile is-parent">
+                <div class="tile is-child box">
+                    <div class="columns is-vcentered is-centered">
+                        <div class="column is-4 p-6">
+                            <figure class="image is-128x128">
+                                <img class="is-rounded profile-pic" src="{%static 'images/profile_pic3.jpg' %}">
+                            </figure>
+                        </div>
+                        <div class="column">
+                            <p class="subtitle">김택영</p>
+                            <p class="subtitle">
+                                Email : xordud525@google.com<br>
+                                Phone : 010-2497-1008<br>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+{% endblock %}
